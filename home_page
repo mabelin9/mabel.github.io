@@ -1,12 +1,43 @@
-<!DOCTYPE html>
 <html>
+
 <head>
-<title>Page Title</title>
+
+<title>Boxy Css</title>
+	<link rel="stylesheet" type="text/css" href="css/main.css">
+
+
+
 </head>
+
 <body>
 
-<h1>This is a Heading</h1>
-<p>This is a paragraph.</p>
+	<div class="header">
+		
+		<h1>Boxy CSS</h1>
+
+		<a href="pg3.html">Contact</a>
+		<a href="">News</a>
+		<a href="">About</a>
+
+	</div>
+
+	<div class="mainBody">
+
+		<div class="innerbox">
+			<h2>Sub Heading</h2>
+		<p class="bodytext">The Body Of the site</p>
+		</div>
+
+	</div>
+
+	<div class="footBody">
+		
+		<p>The Foot of the site</p>
+
+	</div>
+
+
 
 </body>
+
 </html>

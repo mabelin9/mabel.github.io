@@ -1,4 +1,4 @@
-      ;root {
+      :root {
         color-scheme: dark;
         --background: #090909;
         --surface: #141111;

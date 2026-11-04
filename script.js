@@ -1,4 +1,4 @@
-$(#graph1.0) . ready ( function () {
+$(#graph1) . ready ( function () {
 src="https://cdn.plot.ly/plotly-latest.min.js"
 
 style="width:100%;max-width:700px"

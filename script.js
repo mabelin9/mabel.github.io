@@ -1,4 +1,4 @@
-$(#graph1)
+$(document).ready(function){
 <div id="graph1" style="width:100%;max-width:700px"></div>
 
 <script>
@@ -16,3 +16,4 @@ const data = [{
 const layout = {title:"World Wide Wine Production"};
 
 Plotly.newPlot("myPlot", data, layout);
+})

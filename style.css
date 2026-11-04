@@ -1,5 +1,5 @@
 
-      :root {
+      #root {
         color-scheme: dark;
         --background: #090909;
         --surface: #141111;
@@ -13,11 +13,11 @@
         box-sizing: border-box;
       }
 
-      html {
+      #html {
         scroll-behavior: smooth;
       }
 
-      body {
+      #body {
         margin: 0;
         background: var(--background);
         color: var(--text);
@@ -25,7 +25,7 @@
         line-height: 1.65;
       }
 
-      a {
+      #a {
         color: inherit;
       }
 
@@ -34,14 +34,14 @@
         outline-offset: 4px;
       }
 
-      .site-header,
+      #.site-header,
       main,
       .site-footer {
         width: min(100% - 2rem, 68rem);
         margin-inline: auto;
       }
 
-      .site-header {
+      #.site-header {
         display: flex;
         align-items: center;
         justify-content: space-between;
@@ -50,7 +50,7 @@
         border-bottom: 1px solid var(--border);
       }
 
-      .brand {
+      #.brand {
         color: var(--accent);
         font-family: "Courier New", monospace;
         font-size: 0.9rem;

@@ -1,7 +1,7 @@
 Apikey dbda25f0
 
 
-$(document).ready(function){
+$(document).ready(function(){
 function getratings() {
   var key = "dbda25f0";
   var movie = "clayface";

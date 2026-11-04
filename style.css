@@ -209,3 +209,7 @@
       img.large {
             width: 100%;
       }
+
+      img.small {
+            width: 33.3333%;
+      }

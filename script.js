@@ -1,6 +1,3 @@
-Apikey dbda25f0
-
-
 $(document).ready(function(){
 function getratings() {
   var key = 'dbda25f0';

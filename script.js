@@ -8,8 +8,8 @@ function getratings() {
   var year = "2026";
   var url = "https://www.omdbapi.com/?t=" + movie + "&y=" + year+ "&plot=full&apikey=" + key; 
 
-  $.getJSON( url, function(graph1) {
-    console.log (graph1.ratings.are_high);
+  $.getJSON(url, function(graph1) {
+    console.log(graph1.main.ratings_are);
     
   } )
 }

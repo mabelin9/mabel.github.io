@@ -1,18 +1,15 @@
+Apikey dbda25f0
+
+
 $(document).ready(function){
-<div id="graph1" style="width:100%;max-width:700px"></div>
+function getratings() {
+  ver key = "dbda25f0";
+  ver movie = "clayface";
+  ver url = "https://www.omdbapi.com/?t= " + movie + " "&y=2026&plot=full&apikey=" " + key; }
 
-const xArray = ["Italy", "France", "Spain", "USA", "Argentina"];
-const yArray = [55, 49, 44, 24, 15];
-
-const data = [{
-  x:xArray,
-  y:yArray,
-  type:"bar",
-  orientation:"v",
-  marker: {color:"rgba(0,0,255,0.6)"}
-}];
-
-const layout = {title:"World Wide Wine Production"};
-
-Plotly.newPlot("myPlot", data, layout);
+  $.getJSON( url, function(graph1) {
+    console.log (graph1);
+    
+  } )
+}
 })

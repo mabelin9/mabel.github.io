@@ -1,7 +1,6 @@
 $(document).ready(function){
 <div id="graph1" style="width:100%;max-width:700px"></div>
 
-<script>
 const xArray = ["Italy", "France", "Spain", "USA", "Argentina"];
 const yArray = [55, 49, 44, 24, 15];
 

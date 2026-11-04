@@ -9,7 +9,7 @@ function getratings() {
   var url = "https://www.omdbapi.com/?t=" + movie + "&y=" + year+ "&plot=full&apikey=" + key; 
 
   $.getJSON( url, function(graph1) {
-    console.log (graph1);
+    console.log (graph1.ratings.are_high);
     
   } )
 }

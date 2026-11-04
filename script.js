@@ -1,4 +1,8 @@
 $(#graph1.0)
+src="https://cdn.plot.ly/plotly-latest.min.js"
+
+style="width:100%;max-width:700px"
+
 const xArray = ["ClayFace", "A Quiet Place", "Obsession", "Conjuring", "Halloween"];
 const yArray = [7.5, 7.5, 7.8, 7.5, 7.7];
 

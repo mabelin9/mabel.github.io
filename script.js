@@ -1,4 +1,4 @@
-$(#graph1.0)
+$(#graph1.0) . ready ( function () {
 src="https://cdn.plot.ly/plotly-latest.min.js"
 
 style="width:100%;max-width:700px"
@@ -17,3 +17,4 @@ const data = [{
 const layout = {title:"IMDB Horror Movie Ratings"};
 
 Plotly.newPlot("myPlot", data, layout);  
+})
